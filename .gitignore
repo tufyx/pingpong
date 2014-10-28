@@ -1,0 +1,27 @@
+# Project files
+.project
+.pydevproject
+.settings
+.idea
+
+# Package files
+*.egg
+.installed.cfg
+*.egg-info
+
+# Temporary and binary files
+*~
+*.py[cod]
+*.so
+*.cfg
+*.orig
+*.log
+*.pot
+__pycache__/*
+.cache.*
+.*.swp
+*.sqlite
+*.db
+
+Build and docs folder/files
+venv/*
