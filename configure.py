@@ -11,7 +11,7 @@ pip install Flask
 venv/bin/pip install flask-login
 venv/bin/pip install flask-openid
 venv/bin/pip install flask-mail==0.7.6
-venv/bin/pip install sqlalchemy==0.7.9
+venv/bin/pip install sqlalchemy==0.7.10
 venv/bin/pip install flask-sqlalchemy==0.16
 venv/bin/pip install sqlalchemy-migrate==0.7.2
 venv/bin/pip install flask-whooshalchemy==0.55a
@@ -20,6 +20,7 @@ venv/bin/pip install pytz==2013b
 venv/bin/pip install flask-babel==0.8
 venv/bin/pip install flup
 venv/bin/pip install pymysql
+venv/bin/pip install flask-cors
 
 # create folder structure
 mkdir app

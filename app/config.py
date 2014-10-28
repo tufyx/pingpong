@@ -8,9 +8,14 @@ CSRF_ENABLED = False
 SECRET_KEY = 'thequickbrownfoxjumpsoverthelazydog'
 
 #CONFIG MYSQL
-MYSQL_HOST = 'dev.tufyx.com'
+# MYSQL_HOST = 'dev.tufyx.com'
+# MYSQL_USER = 'root'
+# MYSQL_PASSWORD = 'Test1234'
+
+MYSQL_HOST = '127.0.0.1:3306'
 MYSQL_USER = 'root'
-MYSQL_PASSWORD = 'Test1234'
+MYSQL_PASSWORD = ''
+
 
 import os
 basedir = os.path.abspath(os.path.dirname(__file__))

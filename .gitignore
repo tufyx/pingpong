@@ -25,3 +25,4 @@ __pycache__/*
 
 Build and docs folder/files
 venv/*
+app/db_repository/*
